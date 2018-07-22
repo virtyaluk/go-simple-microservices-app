@@ -3,10 +3,10 @@ package common
 import (
   "net/http"
   "log"
-  "github.com/gin-gonic/gin/json"
   "os"
   "gopkg.in/mgo.v2"
   "time"
+  "encoding/json"
 )
 
 type (
