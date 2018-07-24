@@ -3,5 +3,5 @@
   "MongoDBHost": "db",
   "MongoDBUser": "",
   "MongoDBPwd": "",
-  "Database": "movies"
+  "Database": "showtimes"
 }

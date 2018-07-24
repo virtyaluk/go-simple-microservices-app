@@ -15,7 +15,7 @@ WORKDIR /go/src/github.com/virtyaluk/go-simple-microservices-app/bookings
 RUN go install github.com/virtyaluk/go-simple-microservices-app/bookings
 
 # Run the bookings microservice when the container starts
-ENTRYPOINT /go/bin/movies
+ENTRYPOINT /go/bin/bookings
 
 # Service listens on port 8080.
 EXPOSE 8080
